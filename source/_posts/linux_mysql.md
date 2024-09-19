@@ -4,7 +4,7 @@ date: 2024-09-18 20:23:48
 tags: [Linux,Mysql]
 categories: [技术学习]
 top_img: https://img.maodeyu.fun/wall/TUAPI-EEES-CC--1076628268.175b4odf7s.webp
-copyright_author: 猫的于
+cover: https://img.maodeyu.fun/wall/TUAPI-EEES-CC--1076628268.175b4odf7s.webp
 ---
 
 ## 添加mysql yum仓库

@@ -122,7 +122,7 @@ envelope_comment:
   front_matter: #【可选】comments页面的 front_matter 配置
     title: 留言板
     comments: true
-    top_img: false
+    top_img: true
     type: envelope# APlayer
 # https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
 aplayer:

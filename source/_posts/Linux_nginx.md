@@ -4,8 +4,7 @@ date: 2024-09-06 16:53:44
 tags: [Linux,Nginx]
 categories: [技术学习]
 top_img: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-2055416835.7p7rianw0.webp
-copyright_author: 猫的于
-swiper_index: 0
+cover: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-2055416835.7p7rianw0.webp
 ---
 
 

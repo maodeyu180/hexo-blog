@@ -3,9 +3,7 @@ title: HelloWorld
 date: 2024-09-06 16:53:44 
 tags: [HelloWorld]
 categories: [搞七搞八]
-top_img: https://img.maodeyu.fun/wall/TUAPI-EEES-CC--1076628268.175b4odf7s.webp
-copyright_author: 猫的于
-swiper_index: 0
+cover: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-2088906315.361hv0ixdj.webp
 ---
 # 你好，我是猫的于，我精通各种语言的HelloWorld， 你不信？
 
