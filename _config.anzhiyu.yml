@@ -246,7 +246,7 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://img.maodeyu.fun/web/wx_receive.webp
+    - img: https://img.maodeyu.fun/web/wx_receive-.webp
       link:
       text: 微信
     - img: https://img.maodeyu.fun/web/ali_receive.webp

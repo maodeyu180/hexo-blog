@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="主题上传">
+    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="封面图修改">
+      <change afterPath="$PROJECT_DIR$/source/_posts/win_unlock_query.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.anzhiyu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.anzhiyu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Linux_nginx.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Linux_nginx.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/linux_mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/linux_mysql.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/ssh_badpermission.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/ssh_badpermission.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
       <workItem from="1726649896489" duration="101000" />
       <workItem from="1726650011298" duration="11111000" />
       <workItem from="1726662560144" duration="108000" />
-      <workItem from="1726662679030" duration="4650000" />
+      <workItem from="1726662679030" duration="8867000" />
     </task>
     <task id="LOCAL-00001" summary="主题上传">
       <option name="closed" value="true" />
@@ -105,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726663089484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="封面图修改">
+      <option name="closed" value="true" />
+      <created>1726715639628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726715639628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="主题上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="主题上传" />
+    <MESSAGE value="封面图修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="封面图修改" />
   </component>
 </project>
