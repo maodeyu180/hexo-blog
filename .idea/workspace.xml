@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="封面图修改">
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux_cmds.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/linux_docker.md" afterDir="false" />
+    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="增加文章，修改错误标题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/linux_mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/linux_mysql.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/win_unlock_query.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/win_unlock_query.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/anzhiyu/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/anzhiyu/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/WebProject/maodeyunew/imgs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
-    "ts.external.directory.path": "E:\\DevSoft\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/WebProject/maodeyunew/imgs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\DevSoft\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebProject\maodeyunew\imgs" />
@@ -95,7 +92,8 @@
       <workItem from="1726650011298" duration="11111000" />
       <workItem from="1726662560144" duration="108000" />
       <workItem from="1726662679030" duration="8867000" />
-      <workItem from="1728222890732" duration="1265000" />
+      <workItem from="1728222890732" duration="2178000" />
+      <workItem from="1728310721317" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="主题上传">
       <option name="closed" value="true" />
@@ -113,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726715639628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加文章，修改错误标题">
+      <option name="closed" value="true" />
+      <created>1728224211879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728224211879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="主题上传" />
     <MESSAGE value="封面图修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="封面图修改" />
+    <MESSAGE value="增加文章，修改错误标题" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加文章，修改错误标题" />
   </component>
 </project>
