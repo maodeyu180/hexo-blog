@@ -1,24 +1,24 @@
 menu:
-  # 文章:
-  #   隧道: /archives/ || anzhiyu-icon-box-archive
-  #   分类: /categories/ || anzhiyu-icon-shapes
-  #   标签: /tags/ || anzhiyu-icon-tags
+# 文章:
+#   隧道: /archives/ || anzhiyu-icon-box-archive
+#   分类: /categories/ || anzhiyu-icon-shapes
+#   标签: /tags/ || anzhiyu-icon-tags
 
-  # 友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
-  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-  #   留言板: /comments/ || anzhiyu-icon-envelope
+# 友链:
+#   友人帐: /link/ || anzhiyu-icon-link
+#   朋友圈: /fcircle/ || anzhiyu-icon-artstation
+#   留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
-  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
-  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
+# 我的:
+#   音乐馆: /music/ || anzhiyu-icon-music
+#   追番页: /bangumis/ || anzhiyu-icon-bilibili
+#   相册集: /album/ || anzhiyu-icon-images
+#   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  # 关于:
-  #   关于本人: /about/ || anzhiyu-icon-paper-plane
-  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+# 关于:
+#   关于本人: /about/ || anzhiyu-icon-paper-plane
+#   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+#   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -41,7 +41,7 @@ nav:
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
   enable: false
-  days: [4-5, 5-12, 7-7, 9-18, 12-13]
+  days: [ 4-5, 5-12, 7-7, 9-18, 12-13 ]
 
 # Code Blocks (代码相关)
 # --------------------------------------
@@ -66,8 +66,8 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+# Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
+# BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
 
 # 作者卡片 状态
 author_status:
@@ -75,14 +75,14 @@ author_status:
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+  # - 🤖️ 数码科技爱好者
+  # - 🔍 分享与热心帮助
+  # - 🏠 智能家居小能手
+  # - 🔨 设计开发一条龙
+  # - 🤝 专修交互与设计
+  # - 🏃 脚踏实地行动派
+  # - 🧱 团队小组发动机
+  # - 💢 壮汉人狠话不多
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -94,8 +94,8 @@ algolia_search:
   hits:
     per_page: 6
   tags:
-    # - 前端
-    # - Hexo
+  # - 前端
+  # - Hexo
 
 # Docsearch
 # Apply and Option Docs: see https://docsearch.algolia.com/
@@ -162,7 +162,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - /img/default_cover.jpg
+  # - /img/default_cover.jpg
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -461,67 +461,68 @@ footer:
     enable: true
     centerImg:
     left:
-       - title: email
-         link: mailto:yudehai0204@gmail.com
-         icon: anzhiyu-icon-envelope
-       - title: 微博
-         link: https://weibo.com/u/5350573367
-         icon: anzhiyu-icon-weibo
-       - title: facebook
-         link: https://www.facebook.com/profile.php?id=yudehai.0204&sk=about
-         icon: anzhiyu-icon-facebook1
-       - title: RSS
-         link: atom.xml
-         icon: anzhiyu-icon-rss
+      - title: email
+        link: mailto:yudehai0204@gmail.com
+        icon: anzhiyu-icon-envelope
+      - title: 微博
+        link: https://weibo.com/u/5350573367
+        icon: anzhiyu-icon-weibo
+      - title: RSS
+        link: atom.xml
+        icon: anzhiyu-icon-rss
     right:
-       - title: Github
-         link: https://github.com/yudehai0204
-         icon: anzhiyu-icon-github
+      - title: Github
+        link: https://github.com/yudehai0204
+        icon: anzhiyu-icon-github
+      - title: facebook
+        link: https://www.facebook.com/profile.php?id=yudehai.0204&sk=about
+        icon: anzhiyu-icon-facebook1
+      - title: CC
+        link: /copyright
+        icon: anzhiyu-icon-copyright-line
       # - title: Bilibili
       #   link: https://space.bilibili.com/372204786
       #   icon: anzhiyu-icon-bilibili
       # - title: 抖音
       #   link: https://v.douyin.com/DwCpMEy/
       #   icon: anzhiyu-icon-tiktok
-      # - title: CC
-      #   link: /copyright
-      #   icon: anzhiyu-icon-copyright-line
+
   list:
     enable: false
     randomFriends: 3
     project:
-      # - title: 服务
-      #   links:
-      #     - title: 51la统计
-      #       link: https://v6.51.la/
-      #     - title: 十年之约
-      #       link: https://www.foreverblog.cn/
-      #     - title: 开往
-      #       link: https://github.com/travellings-link/travellings
-      # - title: 主题
-      #   links:
-      #     - title: 文档
-      #       link: /docs/
-      #     - title: 源码
-      #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-      #     - title: 更新日志
-      #       link: /update/
-      # - title: 导航
-      #   links:
-      #     - title: 即刻短文
-      #       link: /essay/
-      #     - title: 友链文章
-      #       link: /fcircle/
-      #     - title: 留言板
-      #       link: /comments/
-      # - title: 协议
-      #   links:
-      #     - title: 隐私协议
-      #       link: /privacy/
-      #     - title: Cookies
-      #       link: /cookies/
-      #     - title: 版权协议
-      #       link: /copyright/
+    # - title: 服务
+    #   links:
+    #     - title: 51la统计
+    #       link: https://v6.51.la/
+    #     - title: 十年之约
+    #       link: https://www.foreverblog.cn/
+    #     - title: 开往
+    #       link: https://github.com/travellings-link/travellings
+    # - title: 主题
+    #   links:
+    #     - title: 文档
+    #       link: /docs/
+    #     - title: 源码
+    #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+    #     - title: 更新日志
+    #       link: /update/
+    # - title: 导航
+    #   links:
+    #     - title: 即刻短文
+    #       link: /essay/
+    #     - title: 友链文章
+    #       link: /fcircle/
+    #     - title: 留言板
+    #       link: /comments/
+    # - title: 协议
+    #   links:
+    #     - title: 隐私协议
+    #       link: /privacy/
+    #     - title: Cookies
+    #       link: /cookies/
+    #     - title: 版权协议
+    #       link: /copyright/
   footerBar:
     enable: true
     authorLink: /
@@ -554,7 +555,7 @@ footer:
       source: 1
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
-        # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
+      # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
 
 # Analysis
 # --------------------------------------
@@ -722,9 +723,9 @@ click_heart:
 ClickShowText:
   enable: false
   text:
-    # - I
-    # - LOVE
-    # - YOU
+  # - I
+  # - LOVE
+  # - YOU
   fontSize: 15px
   random: false
   mobile: false
@@ -780,7 +781,7 @@ subtitle:
   source: 1
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-    # - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
+  # - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
 
 # Loading Animation (加载动画)
 preloader:
@@ -835,8 +836,8 @@ aside:
     color: false
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
-      # - Hexo
-      # - 前端
+    # - Hexo
+    # - 前端
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -906,8 +907,8 @@ centerConsole:
     color: false
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
-      # - Hexo
-      # - 前端
+    # - Hexo
+    # - 前端
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -989,8 +990,8 @@ icons:
 pjax:
   enable: true
   exclude:
-    # - xxxx
-    # - xxxx
+  # - xxxx
+  # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
@@ -1157,30 +1158,30 @@ greetingBox:
   enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
-    # - greeting: 晚安😴
-    #   startTime: 0
-    #   endTime: 5
-    # - greeting: 早上好鸭👋, 祝你一天好心情！
-    #   startTime: 6
-    #   endTime: 9
-    # - greeting: 上午好👋, 状态很好，鼓励一下～
-    #   startTime: 10
-    #   endTime: 10
-    # - greeting: 11点多啦, 在坚持一下就吃饭啦～
-    #   startTime: 11
-    #   endTime: 11
-    # - greeting: 午安👋, 宝贝
-    #   startTime: 12
-    #   endTime: 14
-    # - greeting: 🌈充实的一天辛苦啦！
-    #   startTime: 14
-    #   endTime: 18
-    # - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
-    #   startTime: 19
-    #   endTime: 19
-    # - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
-    #   startTime: 20
-    #   endTime: 24
+  # - greeting: 晚安😴
+  #   startTime: 0
+  #   endTime: 5
+  # - greeting: 早上好鸭👋, 祝你一天好心情！
+  #   startTime: 6
+  #   endTime: 9
+  # - greeting: 上午好👋, 状态很好，鼓励一下～
+  #   startTime: 10
+  #   endTime: 10
+  # - greeting: 11点多啦, 在坚持一下就吃饭啦～
+  #   startTime: 11
+  #   endTime: 11
+  # - greeting: 午安👋, 宝贝
+  #   startTime: 12
+  #   endTime: 14
+  # - greeting: 🌈充实的一天辛苦啦！
+  #   startTime: 14
+  #   endTime: 18
+  # - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+  #   startTime: 19
+  #   endTime: 19
+  # - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+  #   startTime: 20
+  #   endTime: 24
 
 # 文章顶部ai摘要
 post_head_ai_description:
@@ -1239,12 +1240,12 @@ dynamicEffect:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # 自定义css
-    # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+  # 自定义css
+  # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
 
   bottom:
-    # 自定义js
-    # - <script src="/js/xxx"></script>
+  # 自定义js
+  # - <script src="/js/xxx"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -1267,67 +1268,67 @@ CDN:
   custom_format: # https://npm.elemecdn.com/${name}@latest/${file}
 
   option:
-    # main_css:
-    # main:
-    # utils:
-    # translate:
-    # random_friends_post_js:
-    # right_click_menu_js:
-    # comment_barrage_js:
-    # ai_abstract_js:
-    # people_js:
-    # local_search:
-    # algolia_js:
-    # algolia_search:
-    # instantsearch:
-    # docsearch_js:
-    # docsearch_css:
-    # pjax:
-    # blueimp_md5:
-    # valine:
-    # twikoo:
-    # waline_js:
-    # waline_css:
-    # sharejs:
-    # sharejs_css:
-    # mathjax:
-    # katex:
-    # katex_copytex:
-    # mermaid:
-    # canvas_ribbon:
-    # canvas_fluttering_ribbon:
-    # canvas_nest:
-    # lazyload:
-    # instantpage:
-    # typed:
-    # pangu:
-    # fancybox_css:
-    # fancybox:
-    # medium_zoom:
-    # snackbar_css:
-    # snackbar:
-    # activate_power_mode:
-    # fireworks:
-    # click_heart:
-    # ClickShowText:
-    # fontawesome:
-    # flickr_justified_gallery_js:
-    # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # meting_api:
-    # prismjs_js:
-    # prismjs_lineNumber_js:
-    # prismjs_autoloader:
-    # artalk_js:
-    # artalk_css:
-    # pace_js:
-    # pace_default_css:
-    # countup_js:
-    # gsap_js:
-    # busuanzi:
-    # rightmenu:
-    # waterfall:
-    # ali_iconfont_css:
-    # accesskey_js:
+  # main_css:
+  # main:
+  # utils:
+  # translate:
+  # random_friends_post_js:
+  # right_click_menu_js:
+  # comment_barrage_js:
+  # ai_abstract_js:
+  # people_js:
+  # local_search:
+  # algolia_js:
+  # algolia_search:
+  # instantsearch:
+  # docsearch_js:
+  # docsearch_css:
+  # pjax:
+  # blueimp_md5:
+  # valine:
+  # twikoo:
+  # waline_js:
+  # waline_css:
+  # sharejs:
+  # sharejs_css:
+  # mathjax:
+  # katex:
+  # katex_copytex:
+  # mermaid:
+  # canvas_ribbon:
+  # canvas_fluttering_ribbon:
+  # canvas_nest:
+  # lazyload:
+  # instantpage:
+  # typed:
+  # pangu:
+  # fancybox_css:
+  # fancybox:
+  # medium_zoom:
+  # snackbar_css:
+  # snackbar:
+  # activate_power_mode:
+  # fireworks:
+  # click_heart:
+  # ClickShowText:
+  # fontawesome:
+  # flickr_justified_gallery_js:
+  # flickr_justified_gallery_css:
+  # aplayer_css:
+  # aplayer_js:
+  # meting_js:
+  # meting_api:
+  # prismjs_js:
+  # prismjs_lineNumber_js:
+  # prismjs_autoloader:
+  # artalk_js:
+  # artalk_css:
+  # pace_js:
+  # pace_default_css:
+  # countup_js:
+  # gsap_js:
+  # busuanzi:
+  # rightmenu:
+  # waterfall:
+  # ali_iconfont_css:
+  # accesskey_js:

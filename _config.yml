@@ -128,3 +128,11 @@ envelope_comment:
 aplayer:
   meting: true
   asset_inject: false
+
+feed:
+  enable: true
+  type: atom
+  path: '/atom.xml'
+  title: "猫的于的博客"
+  description: "分享技术知识和个人见解"
+  author: "猫的于"

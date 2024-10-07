@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="增加文章，修改错误标题">
+    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add rss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/anzhiyu/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/anzhiyu/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
       <workItem from="1726662560144" duration="108000" />
       <workItem from="1726662679030" duration="8867000" />
       <workItem from="1728222890732" duration="2178000" />
-      <workItem from="1728310721317" duration="228000" />
+      <workItem from="1728310721317" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="主题上传">
       <option name="closed" value="true" />
@@ -119,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728224211879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add rss">
+      <option name="closed" value="true" />
+      <created>1728310969510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728310969510</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +138,7 @@
     <MESSAGE value="主题上传" />
     <MESSAGE value="封面图修改" />
     <MESSAGE value="增加文章，修改错误标题" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加文章，修改错误标题" />
+    <MESSAGE value="add rss" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rss" />
   </component>
 </project>
