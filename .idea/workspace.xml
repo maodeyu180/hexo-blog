@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add rss">
-      <change afterPath="$PROJECT_DIR$/source/_posts/rss_renzheng.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/cloudflare_trans_support.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +65,9 @@
       <recent name="E:\WebProject\maodeyunew\imgs" />
       <recent name="E:\WebProject\maodeyunew\source\categories" />
       <recent name="E:\WebProject\maodeyunew\source\_posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebProject\hexo-blog\source\_posts" />
     </key>
   </component>
   <component name="SharedIndexes">
