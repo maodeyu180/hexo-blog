@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add rss">
-      <change afterPath="$PROJECT_DIR$/source/_posts/cloudflare_trans_support.md" afterDir="false" />
+    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add art">
+      <change afterPath="$PROJECT_DIR$/source/_posts/cloudflare_youxuan-ip.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728311508003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add art">
+      <option name="closed" value="true" />
+      <created>1728643314530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728643314530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +158,7 @@
     <MESSAGE value="封面图修改" />
     <MESSAGE value="增加文章，修改错误标题" />
     <MESSAGE value="add rss" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rss" />
+    <MESSAGE value="add art" />
+    <option name="LAST_COMMIT_MESSAGE" value="add art" />
   </component>
 </project>
