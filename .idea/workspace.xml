@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add art">
-      <change afterPath="$PROJECT_DIR$/source/_posts/ssh_info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/keyshort_idea.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/ssh_info.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/ssh_info.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/WebProject/maodeyunew/imgs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/WebProject/hexo-blog/source/_posts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,6 +62,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebProject\hexo-blog\source\_posts" />
       <recent name="E:\WebProject\maodeyunew\imgs" />
       <recent name="E:\WebProject\maodeyunew\source\categories" />
       <recent name="E:\WebProject\maodeyunew\source\_posts" />
@@ -96,7 +98,9 @@
       <workItem from="1726662679030" duration="8867000" />
       <workItem from="1728222890732" duration="2178000" />
       <workItem from="1728310721317" duration="1289000" />
-      <workItem from="1728958950692" duration="612000" />
+      <workItem from="1728958950692" duration="2457000" />
+      <workItem from="1729073244901" duration="3714000" />
+      <workItem from="1729577910000" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="主题上传">
       <option name="closed" value="true" />
@@ -154,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728712576769</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add art">
+      <option name="closed" value="true" />
+      <created>1728960888333</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728960888333</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add art">
+      <option name="closed" value="true" />
+      <created>1729074711298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729074711298</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -9,68 +9,18 @@ cover: https://LinMoste.github.io/picx-images-hosting/wall/TUAPI-EEES-CC--587681
 # SSH连接后设备信息展示脚本
 
 ## 如何使用 
-```
-sudo vim /etc/profile.d/ssh_info.sh
-```
-然后将下列内容粘贴进脚本中 
-```shell
+## 使用方式：
+- 获取su权限  su  或 sudo -s
+- 执行下列命令
 
-warning=$(if [ "$(df -m / | grep -v File | awk '{print $4}')" == "0" ];then echo " 警告，存储空间已满，请立即检查和处置！";fi)
-IP=$(ifconfig eth0 | grep '\<inet\>'| grep -v '127.0.0.1' | awk '{print $2}' | awk 'NR==1')
-mac_now=$(ifconfig eth0 |grep "ether"| awk '{print $2}')
-if command -v sensors &> /dev/null; then
-        temp=$(sensors | grep -i 'temp1' | awk '{print $2}')
-else
-        temp="无法检测 (请安装 lm-sensors)"
-fi
-# 当前连接的 IP 地址
-CURRENT_IP=$(echo $SSH_CONNECTION | awk '{print $1}')
-# 上次连接的 IP 地址和时间
-LAST_INFO=$(last -i | grep "pts/" | head -2 | tail -1)
-if [ -n "$LAST_INFO" ]; then
-    LAST_IP=$(echo $LAST_INFO | awk '{print $3}')
-    LAST_TIME=$(echo $LAST_INFO | awk '{for(i=4;i<=NF-1;i++) printf $i" "; print $(NF)}')
-else
-    LAST_IP=None
-    LAST_TIME=None
-fi
-CURRENT_SSH_CONNECTIONS=$(who | grep 'pts/' | wc -l)
-clear
-echo -e "
+  海外服务器
+  ```shell
+  curl -sSL https://raw.githubusercontent.com/maodeyu180/ssh_hello/main/ssh_info.sh | bash
+  ```
+  国内服务器
 
-
-\e[35m
-         __  __    _    ___  ____  _______   ___   _
-        |  \/  |  / \  / _ \|  _ \| ____\ \ / / | | |
-        | |\/| | / _ \| | | | | | |  _|  \ V /| | | |
-        | |  | |/ ___ \ |_| | |_| | |___  | | | |_| |
-        |_|  |_/_/   \_\___/|____/|_____| |_|  \___/
-\e[0m
-
-
-
-   CPU 信息 : $(cat /proc/cpuinfo | grep "processor" | sort | uniq | wc -l)核处理器 | $(uname -p)架构
-   系统版本 : $(awk -F '[= "]' '/PRETTY_NAME/{print $3,$4,$5}' /etc/os-release) | $(uname -r)-$(getconf LONG_BIT)
-   可用存储 : $(df -m / | grep -v File | awk '{a=$4*100/$2;b=$4} {printf("%.1f%s %.1fM\n",a,"%",b)}') ${warning}
-   可用内存 : $(free -m | grep Mem | awk '{a=$7*100/$2;b=$7} {printf("%.1f%s %.1fM\n",a,"%",b)}')
-   启动时间 : $(awk '{a=int($1/86400);b=int(($1%86400)/3600);c=int(($1%3600)/60);d=int($1%60)} {printf("%d 天 %d 小时 %d 分钟 %d 秒\n",a,b,c,d)}' /proc/uptime)
-   设备 IP  : $IP
-   设备温度 : $temp
-   MAC 地址 : $mac_now
-   本次 IP  : $CURRENT_IP
-   上次 IP  : $LAST_IP
-   LAST TIME: $LAST_TIME
-   SSH连接数：$CURRENT_SSH_CONNECTIONS
-"
-
-
-
-
-```
-再授予 x 权限
-```shell
-chmod 744 /etc/profile.d/ssh_info.sh
-```
-断开重新链接就可以看到效果了
+  ```shell
+  curl -sSL https://mirror.ghproxy.com/https://raw.githubusercontent.com/maodeyu180/ssh_hello/main/ssh_info.sh | bash
+  ```
 ## 效果展示
-![ssh](https://LinMoste.github.io/picx-images-hosting/blog/ssh_info_screent.webp)
+![ssh效果](https://img.maodeyu.fun/blog/ssh_info_screent.webp)
