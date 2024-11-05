@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add linuxdo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_data/link.yml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/link.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,7 @@
       <workItem from="1729073244901" duration="3714000" />
       <workItem from="1729577910000" duration="3274000" />
       <workItem from="1730108596183" duration="771000" />
-      <workItem from="1730789477540" duration="591000" />
+      <workItem from="1730789477540" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="主题上传">
       <option name="closed" value="true" />
@@ -199,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730789673206</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add linuxdo">
+      <option name="closed" value="true" />
+      <created>1730790130392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730790130392</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
