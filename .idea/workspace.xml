@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add 百度网盘">
+    <list default="true" id="a40087a9-3414-484f-b39d-3da681cdbfc5" name="Changes" comment="add linuxdo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_data/link.yml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/link.yml" afterDir="false" />
     </list>
@@ -101,7 +101,7 @@
       <workItem from="1729073244901" duration="3714000" />
       <workItem from="1729577910000" duration="3274000" />
       <workItem from="1730108596183" duration="771000" />
-      <workItem from="1730789477540" duration="181000" />
+      <workItem from="1730789477540" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="主题上传">
       <option name="closed" value="true" />
@@ -191,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730108764035</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add linuxdo">
+      <option name="closed" value="true" />
+      <created>1730789673206</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730789673206</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +212,7 @@
     <MESSAGE value="add rss" />
     <MESSAGE value="add art" />
     <MESSAGE value="add 百度网盘" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 百度网盘" />
+    <MESSAGE value="add linuxdo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add linuxdo" />
   </component>
 </project>
