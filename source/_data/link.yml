@@ -23,7 +23,13 @@
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
       tag: 技术
-
+    - name: LINUX DO
+      link: https://linux.do/?source=maodeyu
+      avatar: https://linux.do/uploads/default/original/3X/9/d/9dd49731091ce8656e94433a26a3ef36062b3994.png
+      descr: 新的理想型社区
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+      color: vip
+      tag: 技术
 - class_name: 小伙伴
   class_desc: 那些人，那些事
   flink_style: anzhiyu
