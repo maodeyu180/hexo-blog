@@ -17,7 +17,7 @@ cover: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-0692394999.2obg6fhjwm.webp
 - 一个 GitHub 账号
 - 一个 Cloudflare 或 Vercel 账号（二选一）
 - 可选：一个域名（没有也可以用系统默认域名）
-
+📌 **示例站点预览**：[https://nav.maodeyu.fun](https://nav.maodeyu.fun)
 ---
 
 ## 📦 第一步：Fork 项目
