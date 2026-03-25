@@ -1,6 +1,7 @@
 ---
 title: 猫猫导航部署教程
-date: 2025-7-16 16:53:44 
+date: 2025-7-16 16:53:44
+updated: 2025-03-25
 tags: [导航站]
 categories: [技术学习]
 top_img: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-0692394999.2obg6fhjwm.webp
@@ -18,6 +19,7 @@ cover: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-0692394999.2obg6fhjwm.webp
 - 一个 Cloudflare 或 Vercel 账号（二选一）
 - 可选：一个域名（没有也可以用系统默认域名）
 📌 **示例站点预览**：[https://nav.maodeyu.fun](https://nav.maodeyu.fun)
+
 ---
 
 ## 📦 第一步：Fork 项目
@@ -61,6 +63,7 @@ cover: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-0692394999.2obg6fhjwm.webp
 
 ⚠️ **安全提醒**：这样配置可以使 Token 只影响你授权的仓库，就算泄露风险也有限。
 
+> 🔒 **v2.0 安全升级**：从 v2.0 开始，GitHub Token 和管理员密码都存储在服务端，不会出现在前端代码中。即使打开浏览器 DevTools 也无法看到这些密钥。
 
 
 
@@ -98,16 +101,26 @@ cover: https://img.maodeyu.fun/wall/TUAPI-EEES-CC-0692394999.2obg6fhjwm.webp
   </br>
 </p>
 
-6. 可选：配置环境变量以启用 admin 后台功能：
+6. 配置环境变量以启用 admin 后台功能：
+
+> ⚠️ **v2.0 重要变更**：环境变量分为两类，密钥类变量**不再使用 VITE_ 前缀**，通过服务端 Functions 安全使用。
+
+**服务端密钥（前端不可见，建议设置为 Encrypted 加密类型）：**
 
 ```bash
-VITE_ADMIN_PASSWORD=自定义管理密码
-VITE_GITHUB_TOKEN=刚才generate生成的github_token
+ADMIN_PASSWORD=自定义管理密码
+GITHUB_TOKEN=刚才 generate 生成的 github_token
+```
+
+**前端配置（VITE_ 前缀，构建时注入，非敏感信息）：**
+
+```bash
 VITE_GITHUB_OWNER=你的 GitHub 用户名
 VITE_GITHUB_REPO=你的仓库名（如：mao_nav）
 VITE_GITHUB_BRANCH=master
-
 ```
+
+> 💡 **Cloudflare Pages** 添加变量时点击 **Encrypt** 按钮可将密钥加密存储；**Vercel** 添加变量时勾选 **Sensitive** 选项。
 
 <p align="center">
  </br>
@@ -141,7 +154,7 @@ VITE_GITHUB_BRANCH=master
 ### ✅ 方法一：通过 Admin 后台界面（推荐）
 
 1. 访问部署后的地址：`https://你的站点域名/admin`
-2. 输入你设置的 `VITE_ADMIN_PASSWORD`
+2. 输入你设置的 `ADMIN_PASSWORD` 管理员密码
 3. 即可在线增删分类、网址，保存后自动部署
 
 ### ✅ 方法二：修改代码文件
@@ -149,6 +162,28 @@ VITE_GITHUB_BRANCH=master
 1. 进入你的 GitHub 仓库
 2. 修改 `/src/mock/mock_data.js` 文件，保存提交
 3. Cloudflare/Vercel 会自动重新构建并上线
+
+---
+
+## 🔄 从 v1.x 升级到 v2.0
+
+如果你之前已经部署了 v1.x 版本，升级到 v2.0 只需修改环境变量：
+
+**在部署平台的环境变量设置中：**
+
+| 操作 | 变量名 | 说明 |
+|---|---|---|
+| **新增** | `ADMIN_PASSWORD` | 值与原来的 `VITE_ADMIN_PASSWORD` 一致，设置为 Encrypted |
+| **新增** | `GITHUB_TOKEN` | 值与原来的 `VITE_GITHUB_TOKEN` 一致，设置为 Encrypted |
+| **保留** | `VITE_GITHUB_OWNER` | 不变 |
+| **保留** | `VITE_GITHUB_REPO` | 不变 |
+| **保留** | `VITE_GITHUB_BRANCH` | 不变 |
+| **删除** | `VITE_ADMIN_PASSWORD` | 已迁移到服务端，必须删除 |
+| **删除** | `VITE_GITHUB_TOKEN` | 已迁移到服务端，必须删除 |
+
+> ⚠️ **务必删除**旧的 `VITE_ADMIN_PASSWORD` 和 `VITE_GITHUB_TOKEN`，否则它们仍会被打包到前端代码中。
+
+修改完环境变量后，同步最新代码并触发一次重新部署即可。
 
 ---
 
